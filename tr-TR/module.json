@@ -3,34 +3,38 @@
   "title": "DnD5e Turkish Translation",
   "description": "Add Turkish language to dnd5e system for FoundryVTT.",
   "version": "0.50",
-  "minimumCoreVersion" : "9",
-  "compatibleCoreVersion":"9",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
 
   "systems": [
     "dnd5e"
   ],
   "minimumSystemVersion": "1.6.0",
 
-  "dependencies": [{
-    "name": "babele",
-    "type": "module"
-  }],
+  "dependencies": [
+    {
+      "name": "babele",
+      "type": "module"
+    }
+  ],
 
   "author": "Maceracılar Loncası",
-  "esmodules": ["babele-register.js"],
+  "esmodules": [ "babele-register.js" ],
   "scripts": [],
   "styles": [
     "./style.css"
   ],
   "packs": [],
 
-  "languages": [{
-  	"lang": "tr",
-    "name": "Turkish",
-    "path": "tr.json"
-  }],
+  "languages": [
+    {
+      "lang": "tr",
+      "name": "Turkish",
+      "path": "tr.json"
+    }
+  ],
 
-  "url": "https://gitlab.com/riccisi/foundryvtt-dnd5e-lang-it-it",
-  "manifest": "https://gitlab.com/riccisi/foundryvtt-dnd5e-lang-it-it/raw/master/it-IT/module.json",
+  "url": "https://github.com/MaceracilarLoncasi/foundryvtt-dnd5e-lang-tr-tr",
+  "manifest": "https://github.com/MaceracilarLoncasi/foundryvtt-dnd5e-lang-tr-tr/blob/main/tr-TR/module.json",
   "download": "https://gitlab.com/riccisi/foundryvtt-dnd5e-lang-it-it/-/jobs/artifacts/0.50/raw/dnd5e-it-IT.zip?job=build"
 }
